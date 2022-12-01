@@ -41,7 +41,7 @@ public class Main extends JFrame implements ActionListener {
             labelList.get(i).addMouseListener(mouseClickListener);
             correctList.add(labelList.get(i));
 
-            labelList.get(i).setForeground(new Color(0));
+            labelList.get(i).setForeground(new Color(255,255,255));
             labelList.get(i).setFont(new Font("Bold Serif", Font.BOLD, 18));
             labelList.get(i).setHorizontalAlignment(CENTER);
             labelList.get(i).setBorder(border);
